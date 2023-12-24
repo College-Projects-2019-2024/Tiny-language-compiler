@@ -6,6 +6,7 @@ from Code.Scanner import Scanner
 from Code.Parser import Parser
 from Code import Util
 
+
 filepath = ""
 sc_obj = Scanner()
 tokens = sc_obj.tokenize(filepath)

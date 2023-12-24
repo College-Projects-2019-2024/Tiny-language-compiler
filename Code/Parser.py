@@ -4,6 +4,7 @@ from Code import Util
 #you need to fill the self.Nodes array with the tree nodes (There is an already made structure in Tree_node.py, you can change it as you like)
 
 
+
 #there are some extra code for syntax error checking
 #if you face any problem with it just delete every line with (for syntax checking) comment above it for now
 

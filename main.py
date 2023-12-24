@@ -6,8 +6,6 @@ from Code.Scanner import Scanner
 from Code.Parser import Parser
 from Code import Util
 
-
-
 filepath = ""
 sc_obj = Scanner()
 tokens = sc_obj.tokenize(filepath)
@@ -18,6 +16,7 @@ pr_obj.tokens = tokens
 pr_obj.program()
 
 #function that uses graphviz to draw the tree given the Nodes array from parser class
+
 #Util.generate_Parse_Tree(pr_obj.Nodes, pr_obj.tokens)
 
 
